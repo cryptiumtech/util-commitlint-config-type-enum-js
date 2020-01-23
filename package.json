@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Shareable commitlint config with custom type enum",
   "files": [
-    "index.js"
+    "src",
+    "dist"
   ],
   "scripts": {
     "clean": "exit 0",
+    "build": "rollup src/index.js --file dist/index.umd.js --format umd --name Commitlint-Config-Type-Enum",
+    "lint": "eslint --fix src/**",
     "deps": "exit 0",
     "pkg": "exit 0",
     "start": "exit 0",
@@ -31,6 +34,10 @@
   },
   "homepage": "https://github.com/cryptiumtech/util-commitlint-config-type-enum-js#readme",
   "devDependencies": {
-    "@commitlint/utils": "^8.1.0"
+    "@commitlint/utils": "^8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "rollup": "^1.25.2"
   }
 }

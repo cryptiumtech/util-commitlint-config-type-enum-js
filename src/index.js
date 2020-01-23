@@ -12,8 +12,13 @@ const types = [
 	'test'
 ];
 
-module.exports.rules = {
+const rules = {
 	'type-enum': [2, 'always', types]
 };
 
-module.exports.value = () => types;
+const value = () => types;
+
+export {
+    rules,
+    value,
+};
