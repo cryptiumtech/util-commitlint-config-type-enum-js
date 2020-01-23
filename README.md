@@ -1,6 +1,6 @@
 # commitlint-config-type-enum
 
-My preferred list of types for use with commitlint.
+Preferred list of types for use with commitlint.
 
 Each type is either a verb in its bare infinitive form or a singular noun.
 
