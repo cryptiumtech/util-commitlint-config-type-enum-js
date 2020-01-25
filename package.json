@@ -1,6 +1,6 @@
 {
   "name": "@cryptium/util-commitlint-config-type-enum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable commitlint config with custom type enum",
   "files": [
     "src",
