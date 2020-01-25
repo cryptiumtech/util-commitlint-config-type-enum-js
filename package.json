@@ -1,14 +1,16 @@
 {
   "name": "@cryptium/util-commitlint-config-type-enum",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shareable commitlint config with custom type enum",
+  "main": "dist/main.umd.js",
+  "module": "src/main",
   "files": [
     "src",
     "dist"
   ],
   "scripts": {
     "clean": "exit 0",
-    "build": "rollup src/index.js --file dist/index.umd.js --format umd --name Commitlint-Config-Type-Enum",
+    "build": "rollup src/main.js --file dist/main.umd.js --format umd --name Commitlint-Config-Type-Enum",
     "lint": "eslint --fix src/**",
     "deps": "exit 0",
     "pkg": "exit 0",
